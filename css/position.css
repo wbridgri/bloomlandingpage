@@ -1,0 +1,100 @@
+:root {
+    --font1: "Noto Sans", sans-serif;
+    --font2: "Sofia", cursive;
+    --grad: radial-gradient(
+        at top center,
+        #ec8da1,
+        #e7718b,
+    );
+    --icon: #fefefe;
+    --prim: #e7718b;
+    --sec: #26292e;
+    --sec2Border: #fce3e7;
+    --tert: #f4f4f6;
+    /* 
+    productbox: #4444
+    product borderL #b8bdd0
+     */
+}
+
+* {box-sizing: border-box;}
+
+/* tag names */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* classes */
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid orange;
+}
+
+.heading, #topSocialList {
+    position: absolute;
+    width: 50%;
+    border: 1px solid red;
+}
+
+.heading {
+    margin: 0;
+    color: #fff;
+    font-family: var(--font2);
+    text-transform: capitalize;
+}
+
+.icons {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.social-item {
+    display: inline;
+}
+
+.visually-hidden  {
+    display: none;
+}
+
+/* ids */
+
+#header {
+    padding: 4px;
+    width: 100%;
+    background-color: var(--sec);
+}
+
+#headerRow {
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+#sec1Box1, #sec1Box2 {
+    position: absolute;
+    width: 50%;
+}
+
+#sec1Row {
+    
+}
+
+#section1 {
+
+}
+
+#topSocialNav {
+    top: 20px;
+    right: 0;
+}
+
+#topSocialList {
+    margin: 0;
+    padding-left: 0;
+    text-align: right;
+list-style-type: none;
+}

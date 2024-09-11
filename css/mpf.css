@@ -1,0 +1,164 @@
+:root {
+    --font1: "Noto Sans", sans-serif;
+    --font2: "Sofia", cursive;
+    --grad: radial-gradient(
+        at top center,
+        #ec8da1,
+        #e7718b,
+    );
+    --icon: #fefefe;
+    --prim: #e7718b;
+    --sec: #26292e;
+    --sec2Border: #fce3e7;
+    --tert: #f4f4f6;
+    /* 
+    productbox: #4444
+    product borderL #b8bdd0
+     */
+}
+
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* tags */
+
+/* classes */
+
+.box {
+    background-color: var(--prim);
+    border: 1px solid red;
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+
+.buttons{
+    margin: 10px;
+}
+
+.btn{
+    background-color: var(--sec);
+    color: var(--tert); 
+    height: 40px;
+    width: 120px;
+    border-radius: 5%;
+    
+}
+.clear {
+    clear: both;
+}
+
+.container {
+    border: 1px solid red;
+}
+
+
+
+.header {
+    background-color: var(--sec);
+    margin: 0;
+    
+    
+}
+
+.heading {
+    color: var(--tert);
+    font-family: var(--font2);
+    text-transform: uppercase;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+
+.icon {
+    width: 20px;
+    height: 20px;
+    background-color: var(--icon);
+    border: 1px solid red;
+    border-radius: 50%;
+    float: right;
+    
+
+}
+
+.icon2 {
+    height: 10px;
+    width: 10px;
+    border: 1px solid black;
+    float: inline-start
+}
+
+.img {
+    background-color: var(--prim);
+    float:left;
+    width: 50%; 
+    display: block;
+    border: 1px solid blue;
+    padding-top: 35px;
+    padding-bottom: 1px;
+
+}
+
+.products {
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+.products:nth-child(1) {
+    display: none;
+}
+
+.sec2-box {
+    float: left;
+    width: 30%;  
+    padding-bottom: 30px;
+    margin: 19px;
+}
+
+.sec3-box {
+    width: 50%;
+    float: left;
+}
+
+.social-list { 
+    display: inline;
+}
+
+.social-item{
+    display: inline;
+    float: right;
+    width: 10%;
+    padding: 20px;
+    
+}
+
+.social-nav {
+    margin: 30px;
+    float: right;
+
+}
+
+.visually-hidden {
+    display: none;
+}
+
+/* ids */
+
+#section1 {
+    color: var(--tert);
+    font-family: var(--font1)
+}
+
+#section2 {
+    background-color: var(--tert);
+    border-bottom: 10px solid var(--sec2Border);
+}
