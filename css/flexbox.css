@@ -1,0 +1,72 @@
+:root {
+    --font1: "Noto Sans", sans-serif;
+    --font2: "Sofia", cursive;
+    --grad: radial-gradient(
+        at top center,
+        #ec8da1,
+        #e7718b,
+    );
+    --icon: #fefefe;
+    --prim: #e7718b;
+    --sec: #26292e;
+    --sec2Border: #fce3e7;
+    --tert: #f4f4f6;
+    /* 
+    productbox: #4444
+    product borderL #b8bdd0
+     */
+}
+
+* {box-sizing: border-box;}
+
+/* tags */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+}
+
+
+/* classes */
+
+
+.header {
+    background-color: var(--sec);
+    font-family: var(--font2);
+    color: var(--tert);
+    width: 100%;
+    display: flex;
+    border: 2px solid red;
+    justify-content: space-between;
+    
+}
+
+.heading {
+    display: flex;
+    border: 1px solid green;
+width: 50%;
+
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-color: #fefefe;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.nav {
+    display: flex;
+    border: 1px solid blue;
+    width: 50%;
+    text-align: right;
+}
+
+
+/* ids */
+
