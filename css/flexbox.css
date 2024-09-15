@@ -48,7 +48,6 @@ ul {
 .heading {
     display: flex;
     border: 1px solid green;
-width: 50%;
 
 }
 
@@ -63,10 +62,15 @@ width: 50%;
 .nav {
     display: flex;
     border: 1px solid blue;
-    width: 50%;
-    text-align: right;
 }
 
 
 /* ids */
 
+
+#row1 {
+    width: 100%;
+display: flex;
+justify-content: space-between;
+border: 3px solid purple;
+}
