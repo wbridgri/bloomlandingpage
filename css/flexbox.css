@@ -65,6 +65,11 @@ ul {
     
 }
 
+.footer {
+    background-color: var(--sec);
+    color: white;
+}
+
 
 .header {
     background-color: var(--sec);
@@ -96,7 +101,10 @@ ul {
 
 .products {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: ;
 }
 
 .visually-hidden {
@@ -181,5 +189,9 @@ width: 100%;
 
 #section2 {
     background-color: var(--tert);
+    font-family: var(--font1);
+}
+
+#section3 {
     font-family: var(--font1);
 }
