@@ -28,27 +28,57 @@ body {
 
 ul {
     display: flex;
+    list-style-type: none;
 }
 
 
 /* classes */
+
+.box {
+    width: 50%;
+}
+
+.client {
+    color: black;
+    font-weight: bold;
+}
+
+.clients-list {
+    display: flex;
+    list-style-type: none;
+    color: #b8bdd0;
+    flex-direction: column;
+    gap: 100px;
+}
+
+
+.img {
+    width: 50%;
+}
+
+.btn{
+    background-color: var(--sec);
+    color: var(--tert); 
+    height: 40px;
+    width: 120px;
+    border-radius: 5%;
+    
+}
 
 
 .header {
     background-color: var(--sec);
     font-family: var(--font2);
     color: var(--tert);
-    width: 100%;
     display: flex;
-    border: 2px solid red;
-    justify-content: space-between;
+    /* border: 2px solid red; */
     
 }
 
 .heading {
     display: flex;
-    border: 1px solid green;
-
+    /* border: 1px solid green; */
+    
 }
 
 .icon {
@@ -56,21 +86,100 @@ ul {
     height: 40px;
     background-color: #fefefe;
     border-radius: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .nav {
     display: flex;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
+.products {
+    display: flex;
+    flex-direction: column;
+}
+
+.visually-hidden {
+    display: none;
+}
 
 /* ids */
+
+#clientsBox {
+    width: calc(100% / 3);
+}
+
+#container1 {
+width: 100%;
+}
+
+#container2{
+    width: 100%;
+}
+
+#container3 {
+    width: 100%;
+}
+
+#container4 {
+    width: 100%;
+}
+
+#product1 {
+    border: 10px solid #b8bdd0;
+    height: 300px;
+    width: 45%;
+}
+#product2 {
+    border: 10px solid #b8bdd0;
+    height: 300px;
+    width: 45%;
+}
+#product3 {
+    border: 10px solid #b8bdd0;
+    height: 300px;
+    width: 45%;
+    
+}
+#product4 {
+    border: 10px solid #b8bdd0;
+    height: 300px;
+    width: 45%;
+}
+
+#productsBox {
+    width: calc((100%) * (2 / 3));
+}
 
 
 #row1 {
     width: 100%;
-display: flex;
-justify-content: space-between;
-border: 3px solid purple;
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid purple; */
+}
+
+#row2 {
+    display: flex;
+}
+
+#row3 {
+    display: flex;
+    border-bottom: 10px solid var(--sec2Border);
+}
+
+#row4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#section1 {
+    background-color: var(--prim);
+    font-family: var(--font1);
+    color: white;
+}
+
+#section2 {
+    background-color: var(--tert);
+    font-family: var(--font1);
 }
