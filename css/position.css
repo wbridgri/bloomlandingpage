@@ -80,7 +80,7 @@ ul {
 
 .footer {
     position: relative;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     top: 600px;
     width: 100%;
     height: 100px;
@@ -101,7 +101,7 @@ ul {
 .heading {
     position: relative;
     top: 40px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     left: 150px;
 }
 
@@ -110,12 +110,12 @@ ul {
     height: 40px;
     background-color: #fefefe;
     border-radius: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .img {
     width: 50%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     position: absolute;
     right: 0;
     background-color: var(--prim);
@@ -150,7 +150,7 @@ ul {
 
 #section1 {
     position: relative;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     text-align: center;
     margin: 0;
     width: 100%;
@@ -159,7 +159,7 @@ ul {
 
 #sec1Box1 {
     width: 50%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     position: absolute;
     background-color: var(--prim);
     color: var(--tert);
@@ -180,7 +180,7 @@ ul {
 }
 
 #section3 {
-    border: 1px solid aqua;
+    /* border: 1px solid aqua; */
     position: relative;
     width: 100%;
     height: 400px;
@@ -189,12 +189,12 @@ ul {
 
 .sec3-box {
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-family: var(--font1);
 }
 
 #sec2Box1 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: calc(100% / 3);
     position: absolute;
     top: 0;
@@ -202,7 +202,7 @@ ul {
 }
 
 #sec2Box2 {
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
     width: calc(100% / 3);
     position: absolute;
     
@@ -211,7 +211,7 @@ ul {
 }
 
 #sec2Box3 {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: calc(100% / 3);
     position: absolute;
     left: 1010px;
@@ -237,21 +237,21 @@ ul {
 }
 
 #product1{
-    background-color: green;
+    background-color: darkslategray;
 }
 
 #product2 {
-    background-color: blue;
+    background-color: darkslategrey;
     left: 507px;
 }
 
 #product3 {
-    background-color: yellow;
+    background-color: darkslategrey;
     top: 450px;
 }
 
 #product4 {
-    background-color: red;
+    background-color: darkslategrey;
     top: 450px;
     left: 507px;
 }
